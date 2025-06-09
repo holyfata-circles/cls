@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.0.6
+
+### 🚀 Enhancements
+
+- Init the project ([5f4f2cd](https://github.com/holyfata-circles/cls/commit/5f4f2cd))
+
+### ❤️ Contributors
+
+- Holyfata ([@holyfata](https://github.com/holyfata))
+
 ## v0.0.5
 
 [compare changes](https://github.com/holyfata-circles/template/compare/v0.0.4...v0.0.5)
