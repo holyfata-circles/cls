@@ -1,7 +1,7 @@
 {
   "name": "@holyfata/cls",
-  "version": "0.0.6",
-  "description": "",
+  "version": "0.0.7",
+  "description": "A zero-dependency utility for joining class names. Supports strings, numbers, booleans, objects, arrays, and more. Intelligently merges various types of arguments into a single className string, ideal for use in React, Vue, and other frontend frameworks. Features conditional class names via object key-value pairs, nested arrays, and custom toString methods. Simple and efficient API for modern frontend projects.",
   "repository": {
     "type": "git",
     "url": "git@github.com:holyfata-circles/cls.git"
