@@ -1,10 +1,10 @@
 {
-  "name": "@holyfata/template",
+  "name": "@holyfata/cls",
   "version": "0.0.5",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:holyfata-circles/template.git"
+    "url": "git@github.com:holyfata-circles/cls.git"
   },
   "publishConfig": {
     "access": "public",

@@ -1,10 +1,10 @@
-# @holyfata/template
+# @holyfata/cls
 
 <!-- automd:badges license -->
 
-[![npm version](https://img.shields.io/npm/v/@holyfata/template)](https://npmjs.com/package/@holyfata/template)
-[![npm downloads](https://img.shields.io/npm/dm/@holyfata/template)](https://npm.chart.dev/@holyfata/template)
-[![license](https://img.shields.io/github/license/holyfata-circles/template)](https://github.com/holyfata-circles/template/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@holyfata/cls)](https://npmjs.com/package/@holyfata/cls)
+[![npm downloads](https://img.shields.io/npm/dm/@holyfata/cls)](https://npm.chart.dev/@holyfata/cls)
+[![license](https://img.shields.io/github/license/holyfata-circles/cls)](https://github.com/holyfata-circles/cls/blob/main/LICENSE)
 
 <!-- /automd -->
 
@@ -16,17 +16,17 @@ Install the package:
 
 ```sh
 # ✨ Auto-detect (supports npm, yarn, pnpm, deno and bun)
-npx nypm install packageName
+npx nypm install @holyfata/cls
 ```
 
 Import:
 
-<!-- automd:jsimport imports="test" -->
+<!-- automd:jsimport src=./src/index.ts -->
 
 **ESM** (Node.js, Bun, Deno)
 
 ```js
-import { test } from "@holyfata/template";
+import { cls } from "@holyfata/cls";
 ```
 
 <!-- /automd -->
@@ -48,11 +48,11 @@ import { test } from "@holyfata/template";
 
 <!-- automd:contributors author=holyfata license=MIT -->
 
-Published under the [MIT](https://github.com/holyfata-circles/template/blob/main/LICENSE) license.
-Made by [@holyfata](https://github.com/holyfata) and [community](https://github.com/holyfata-circles/template/graphs/contributors) 💛
+Published under the [MIT](https://github.com/holyfata-circles/cls/blob/main/LICENSE) license.
+Made by [@holyfata](https://github.com/holyfata) and [community](https://github.com/holyfata-circles/cls/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/holyfata-circles/template/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=holyfata-circles/template" />
+<a href="https://github.com/holyfata-circles/cls/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=holyfata-circles/cls" />
 </a>
 
 <!-- /automd -->
