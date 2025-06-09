@@ -1,0 +1,49 @@
+{
+  "name": "@holyfata/template",
+  "version": "0.0.5",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:holyfata-circles/template.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "bun test --watch",
+    "build": "bun run scripts/build.mjs",
+    "lint": "eslint . && prettier -c .",
+    "lint:fix": "automd && eslint . --fix && prettier -w .",
+    "prepack": "bun run build",
+    "release": "bun run test && changelogen --release && npm publish && git push --follow-tags",
+    "test": "bun run test:types && bun test --coverage",
+    "test:types": "tsc --noEmit --skipLibCheck",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/bun": "1.2.15",
+    "@types/node": "22.15.30",
+    "automd": "0.4.0",
+    "bun-plugin-dts": "0.3.0",
+    "changelogen": "0.6.1",
+    "eslint": "9.28.0",
+    "eslint-config-unjs": "0.4.2",
+    "husky": "9.1.7",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3"
+  },
+  "packageManager": "bun@1.2.15"
+}
